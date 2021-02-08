@@ -1,0 +1,105 @@
+/* The entire body wrapper*/
+#bodyWrapper {
+    width: 90%;
+    margin: auto;
+
+}
+
+/* the heading which displayes the content description*/
+.PageHead {
+    color: white;
+    background-color: lightslategrey;
+    text-align: center;
+    font-weight: 800;
+    font-family: 'Times New Roman', Times;
+    padding: 1.5%;
+    font-size: 60px;
+}
+
+/* the headings which displayes each section's intor*/
+.introHeading {
+    color: black;
+    background-color: rgb(194, 201, 209);
+    text-align: center;
+    font-weight: 600;
+    font-family: 'Times New Roman', Times;
+    padding: 1%;
+}
+
+/* Style the Navigation tabs*/
+.nav-link {
+    background-color: lightgray;
+    color: black;
+    font-weight: 600;
+    font-family: 'Times New Roman', Times;
+    border-bottom: solid thin gray;
+    border-left: solid thin gray;
+    font-size: 18px;
+}
+
+.nav-item {
+    padding: 0.1%;
+}
+
+/* Enlarge abd change color of Nav when hovered over*/
+.nav-link:hover{
+    color: white;
+    background-color: rgb(165, 174, 182);
+}
+
+/* Style profile image*/
+#profileImg {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;    
+    width: 70%;
+    box-shadow: 4px 5px #c8e8ec;
+    padding: 0.5%;
+    border-radius: 5px;
+    
+}
+
+/* Diveder (aside) with contact info*/
+#contactDetails {
+    border-right: solid thin  rgb(165, 174, 182);
+    border-left: solid thin  rgb(165, 174, 182);
+    padding: 1% 2% 1% 2%;
+}
+
+/* Diveder (article) with working info*/
+#backgroundInfo {
+    border-right: solid thin  rgb(165, 174, 182);
+    padding: 1% 2% 1% 2%;
+}
+
+/* to align the answers to the person information right*/
+.answerSpan{
+    float: right;
+    width: 12em;
+}
+
+/* To allight some heading and paragraphs in the cntre*/
+.centre {
+    text-align: center;
+}
+
+/*Style employment */
+.jobCompany {
+    color: lightslategrey;
+    font-weight: 700%;
+}
+
+.jobTile {
+    text-indent: 5%;
+}
+
+/*images size on contact info*/
+.img-thumbnail{
+    width: 70%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    box-shadow: 4px 5px #c8e8ec;
+    padding: 0.5%;
+    border-radius: 5px;
+}
