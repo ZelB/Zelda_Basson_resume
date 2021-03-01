@@ -1,6 +1,6 @@
 /* The entire body wrapper*/
 #bodyWrapper {
-    width: 90%;
+    width: 80%;
     margin: auto;
 
 }
@@ -78,7 +78,7 @@
     width: 12em;
 }
 
-/* To allight some heading and paragraphs in the cntre*/
+/* To allight some heading and paragraphs in the center*/
 .centre {
     text-align: center;
 }
@@ -102,4 +102,37 @@
     box-shadow: 4px 5px #c8e8ec;
     padding: 0.5%;
     border-radius: 5px;
+}
+
+/* Skill set*/
+.skillsList{
+    display : inline-block;
+    background : white;
+    color: rgb(64, 122, 124);
+    padding:10px;
+    border-width:2px;
+    border-color:rgb(64, 122, 124);
+    border-style:solid;
+    margin: 3px;
+    font-weight: 700;
+    border-radius: 15%;
+}
+
+.learnList {
+    display : inline-block;
+    background : rgb(64, 122, 124);
+    color: white;
+    padding:10px;
+    border-width:2px;
+    border-color:black;
+    border-style:solid;
+    margin: 3px;
+    font-weight: 500;
+    border-radius: 15%;
+}
+
+.linkedInClass {
+    text-align: center;
+    color: rgb(27, 101, 151);
+    font-weight: 700;
 }
