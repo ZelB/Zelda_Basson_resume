@@ -79,6 +79,11 @@
     text-align: center;
 }
 
+.answerInfoSpan {
+    float: right;
+    width: 12em;
+}
+
 /* To allight some heading and paragraphs in the center*/
 .centre {
     text-align: center;
